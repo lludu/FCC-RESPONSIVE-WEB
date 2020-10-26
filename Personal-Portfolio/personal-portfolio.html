@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- Bootstrap needs  "shrink-to-fit=no" in the meta viewport to work -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Personal Portfolio Project from FreeCodeCamp">
+
+
+    <title>FCC: Personal Portfolio</title>
+
+    <!-- Bootstrap CSS, Always First CSS Loaded, disabled when not needed -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Load Google Font Style Sheet under this comment -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,200&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Free CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <!-- Load Personal CSS Under this comment -->
+    <link rel="stylesheet" href="personal-portfolio.css">
+
+
+</head>
+<body>
+
+    <header id="header">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-danger" id="navbar">
+        <a class="navbar-brand" href="#">AndrewAsh</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Work</a>
+            <a class="nav-link" href="#">Contact</a>
+          </div>
+        </div>
+    </nav>
+    </header>
+
+
+    <main id="main">
+
+
+  
+        <section id="welcome-section" class="jumbotron jumbotron-fluid d-flex">
+            <div class="container">
+              <h1 class="display-4">Hey I am Andrew Ash</h1>
+              <p class="lead">a web developer</p>
+            </div>
+        </section>
+
+
+
+
+        <!-- Card Project Section -->
+        <section id="projects">
+
+            <h4 class="projk">These are some of my projects</h4>
+
+            <div class="container d-flex justify-content-between flex-wrap" id="projks">
+                
+                <!-- Card 1 -->
+                <div class="col col-sm-4"><a href="https://codepen.io/FreeCodeCamp/" target="_blank">
+                    <img src="images/tribute.jpg" class="card-img-top rezzer" alt="Tribute Page">
+                    <div class="card-body">
+                        <h5 class="card-title project-tile"><span id="card-code"><</span>Tribute Page<span id="card-code">/></span></h5>
+                    </div></a>
+                </div>
+
+                 <!-- Card 2 -->
+                 <div class="col col-sm-4"><a href="https://codepen.io/FreeCodeCamp/" target="_blank">
+                    <img src="images/random-quote-machine.png" class="card-img-top rezzer" alt="Random Quote Machine Page">
+                    <div class="card-body">
+                        <h5 class="card-title project-tile"><span id="card-code"><</span>Random Quote Machine<span id="card-code">/></span></h5>
+                    </div></a>
+                </div>
+
+                 <!-- Card 3 -->
+                 <div class="col col-sm-4"><a href="https://codepen.io/FreeCodeCamp/" target="_blank">
+                    <img src="images/calc.png" class="card-img-top rezzer" alt="Javascript Calculator Page">
+                    <div class="card-body">
+                        <h5 class="card-title project-tile"><span id="card-code"><</span>Javascript Calculator<span id="card-code">/></span></h5>
+                    </div></a>
+                </div>
+
+                 <!-- Card 4 -->
+                 <div class="col col-sm-4"><a href="https://codepen.io/FreeCodeCamp/" target="_blank">
+                    <img src="images/map.jpg" class="card-img-top rezzer" alt="Map Data Across The Globe Page">
+                    <div class="card-body">
+                        <h5 class="card-title project-tile"><span id="card-code"><</span>Map Data Across the Globe<span id="card-code">/></span></h5>
+                    </div></a>
+                </div>
+
+                 <!-- Card 5 -->
+                 <div class="col col-sm-4"><a href="https://codepen.io/FreeCodeCamp/" target="_blank">
+                    <img src="images/wiki.png" class="card-img-top rezzer" alt="Wikipedia Viewer Page">
+                    <div class="card-body">
+                        <h5 class="card-title project-tile"><span id="card-code"><</span>Wikipedia Viewer<span id="card-code">/></span></h5>
+                    </div></a>
+                </div>
+
+                 <!-- Card 6 -->
+                 <div class="col col-sm-4"><a href="https://codepen.io/FreeCodeCamp/" target="_blank">
+                    <img src="images/tic-tac-toe.png" class="card-img-top rezzer" alt="Tic-Tac-Toe Game Page">
+                    <div class="card-body">
+                        <h5 class="card-title project-tile"><span id="card-code"><</span>Tic Tac Toe Game<span id="card-code">/></span></h5>
+                    </div></a>
+                </div>
+
+
+                <button type="button" class="btn btn-danger mr-auto ml-auto"><a href="https://codepen.io/FreeCodeCamp/" target="_blank">Show all ></a></button>
+
+
+                
+
+            </div>
+
+
+
+        </section>
+
+        
+
+        <section id="contact-section" class="justify-content-between d-flex contactier">
+            <div class="container">
+              <h1 class="display-4">Let's Work Together...</h1>
+              <p class="lead">How do you take your coffee?</p>
+              <a href="https://codepen.io/FreeCodeCamp/" target="_blank" id="profile-link"><i class="fab fa-facebook-square"></i> Facebook</a>
+              <a href="https://codepen.io/FreeCodeCamp/" target="_blank" id="profile-link"><i class="fab fa-github"></i> Github</a>
+              <a href="https://codepen.io/FreeCodeCamp/" target="_blank" id="profile-link"><i class="fab fa-twitter"></i> Twitter</a>
+              <a href="https://codepen.io/FreeCodeCamp/" target="_blank" id="profile-link"><i class="fas fa-at"></i> Send a mail</a>
+              <a href="https://codepen.io/FreeCodeCamp/" target="_blank" id="profile-link"><i class="fas fa-mobile-alt"></i> Call me</a>
+            </div>
+        </section>
+
+
+        <footer id="footer" class="foot">
+     
+            <div class="container justify-content-around d-flex">
+                <p>**This is just a fake portfolio. All the projects and contact details given are not real.</p>
+                <p>&copy; Created for freeCodeCamp<a href="https://www.freecodecamp.com/" target="_blank"><i class="fab fa-free-code-camp"></i></a> </p>
+            </div>
+        </footer>
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional Bootstrap JavaScript, disabled when not needed -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- Load Personal Javascript Under this comment -->
+
+</body>
+</html>
